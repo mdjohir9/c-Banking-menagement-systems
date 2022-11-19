@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{67EE380A-E4D4-4734-AAC2-19015DD81FD4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Banking_menage_systems</RootNamespace>
+    <AssemblyName>Banking_menage_systems</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\final_project\Banking_menage_systems\Tlog\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>Banking Menagement</ProductName>
+    <PublisherName>Md Johirill Islam</PublisherName>
+    <SuiteName>Raihan</SuiteName>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>DD87FEA44F8679C2FF5F1F310F5D9BB650429C6A</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Banking_menage_systems_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account Type Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Account Type Form.Designer.cs">
+      <DependentUpon>Account Type Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustBalFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustBalFrom.Designer.cs">
+      <DependentUpon>CustBalFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer Form.Designer.cs">
+      <DependentUpon>Customer Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Custommer_Reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Custommer_Reports.Designer.cs">
+      <DependentUpon>Custommer_Reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Deposit_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deposit_Form.Designer.cs">
+      <DependentUpon>Deposit_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Deposit_report_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deposit_report_form.Designer.cs">
+      <DependentUpon>Deposit_report_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login_from.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_from.Designer.cs">
+      <DependentUpon>Login_from.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIParent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIParent.Designer.cs">
+      <DependentUpon>MDIParent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Test_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test_form.Designer.cs">
+      <DependentUpon>Test_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WidthDrow_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WidthDrow_form.Designer.cs">
+      <DependentUpon>WidthDrow_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Withdrow_report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Withdrow_report.Designer.cs">
+      <DependentUpon>Withdrow_report.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Account Type Form.resx">
+      <DependentUpon>Account Type Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustBalFrom.resx">
+      <DependentUpon>CustBalFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer Form.resx">
+      <DependentUpon>Customer Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Custommer_Reports.resx">
+      <DependentUpon>Custommer_Reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deposit_Form.resx">
+      <DependentUpon>Deposit_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deposit_report_form.resx">
+      <DependentUpon>Deposit_report_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_from.resx">
+      <DependentUpon>Login_from.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIParent.resx">
+      <DependentUpon>MDIParent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Test_form.resx">
+      <DependentUpon>Test_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WidthDrow_form.resx">
+      <DependentUpon>WidthDrow_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Withdrow_report.resx">
+      <DependentUpon>Withdrow_report.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Banking_menage_systems_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SqlServer.SqlLocalDB.15.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2019 Express LocalDB</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
